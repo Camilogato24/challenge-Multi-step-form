@@ -16,7 +16,7 @@ const MultiStep = () => {
     case 4:
       return <StepFourth />;
     default:
-      return `  Step ${step} not found`;
+      return `Step ${step} not found`;
   }
 };
 
